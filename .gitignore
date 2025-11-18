@@ -10,3 +10,4 @@ build/
 *.log
 *.cap
 *.cmd
+.ds_store
