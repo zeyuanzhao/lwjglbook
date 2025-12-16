@@ -6,6 +6,13 @@
             "name": "Main",
             "request": "launch",
             "mainClass": "org.lwjglb.game.Main",
+            "projectName": "chapter-08"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "org.lwjglb.game.Main",
             "projectName": "chapter-07"
         },
         {

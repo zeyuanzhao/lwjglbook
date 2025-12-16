@@ -45,9 +45,9 @@ public class Main implements IAppLogic {
             0.5f, -0.5f, -0.5f,
             0.5f, 0.5f, -0.5f,
 
-            -0.5f, 0.5f, 0.5f,
-            -0.5f, 0.5f, -0.5f,
             -0.5f, -0.5f, -0.5f,
+            -0.5f, 0.5f, -0.5f,
+            -0.5f, 0.5f, 0.5f,
             -0.5f, -0.5f, 0.5f,
 
             -0.5f, 0.5f, 0.5f,
@@ -55,42 +55,42 @@ public class Main implements IAppLogic {
             0.5f, 0.5f, -0.5f,
             -0.5f, 0.5f, -0.5f,
 
+            0.5f, -0.5f, 0.5f,
             -0.5f, -0.5f, 0.5f,
             -0.5f, -0.5f, -0.5f,
             0.5f, -0.5f, -0.5f,
-            0.5f, -0.5f, 0.5f,
-
         };
         float[] textCoords = new float[]{
-            0.5f, 0.0f,
+            0.0f, 0.5f,
+            0.0f, 1.0f,
+            0.33f, 1.0f,
+            0.33f, 0.5f,
+            
+            0.67f, 0.5f,
+            0.67f, 1.0f,
+            1.0f, 1.0f,
+            1.0f, 0.5f,
+
+            0.0f, 0.5f,
             0.0f, 0.0f,
-            0.0f, 0.333f,
-            0.5f, 0.333f,
+            0.33f, 0.0f,
+            0.33f, 0.5f,
+
+            0.33f, 0.5f,
+            0.33f, 0.0f,
+            0.67f, 0.0f,
+            0.67f, 0.5f,
+
+            0.33f, 1.0f,
+            0.33f, 0.5f,
+            0.67f, 0.5f,
+            0.67f, 1.0f,
 
             1.0f, 0.0f,
-            0.5f, 0.0f,
-            0.5f, 0.333f,
-            1.0f, 0.333f,
+            1.0f, 0.5f,
+            0.67f, 0.5f,
+            0.67f, 0.0f,
 
-            0.5f, 0.333f,
-            0.0f, 0.333f,
-            0.0f, 0.666f,
-            0.5f, 0.666f,
-
-            1.0f, 0.333f,
-            0.5f, 0.333f,
-            0.5f, 0.666f,
-            1.0f, 0.666f,
-
-            0.5f, 0.667f,
-            0.0f, 0.667f,
-            0.0f, 1.0f,
-            0.5f, 1.0f,
-
-            1.0f, 0.667f,
-            0.5f, 0.667f,
-            0.5f, 1.0f,
-            1.0f, 1.0f,
         };
         int[] indices = new int[]{
             0, 1, 2, 2, 3, 0,
@@ -98,9 +98,9 @@ public class Main implements IAppLogic {
             8, 9, 10, 10, 11, 8,
             12, 13, 14, 14, 15, 12,
             16, 17, 18, 18, 19, 16,
-            20, 21, 22, 22, 23, 20,
+            20, 21, 22, 22, 23, 20
         };
-        Texture texture = scene.getTextureCache().createTexture("resources/models/numbers/numbers.png");
+        Texture texture = scene.getTextureCache().createTexture("resources/models/questionblock/questionblock.png");
         Material material = new Material();
         material.setTexturePath(texture.getTexturePath());
         List<Material> materialList = new ArrayList<>();

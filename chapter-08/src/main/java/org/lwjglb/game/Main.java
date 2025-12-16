@@ -4,7 +4,6 @@ import org.joml.Vector2f;
 import org.lwjglb.engine.*;
 import org.lwjglb.engine.graph.*;
 import org.lwjglb.engine.scene.*;
-
 import java.util.*;
 
 import static org.lwjgl.glfw.GLFW.*;
