@@ -18,7 +18,7 @@ public class Main implements IAppLogic, IGuiInstance {
 
     public static void main(String[] args) {
         Main main = new Main();
-        Engine gameEng = new Engine("chapter-10", new Window.WindowOptions(), main);
+        Engine gameEng = new Engine("chapte\r-10", new Window.WindowOptions(), main);
         gameEng.start();
     }
 
